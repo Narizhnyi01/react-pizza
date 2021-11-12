@@ -118,6 +118,7 @@ function Cart() {
             {addedPizzas.map((obj) => (
               <CartItem
                 key={obj.id}
+                image={obj.imageUrl}
                 id={obj.id}
                 name={obj.name}
                 type={obj.type}
